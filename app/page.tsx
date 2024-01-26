@@ -1,6 +1,8 @@
 "use client";
+import AboutSection from "./components/AboutSection";
 import HeaderSection from "./components/HeaderSection";
 import Navbar from "./components/Navbar";
+import ProjectsSection from "./components/ProjectsSection";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
 
       <div className="container mt-24 mx-auto px-12 py-4">
         <HeaderSection />
+        <AboutSection />
+        <ProjectsSection />
       </div>
     </main>
   );

@@ -1,10 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import dynamic from "next/dynamic";
-const TypeAnimation = dynamic(() => import("react-text-animation"), {
-  ssr: false,
-});
 const HeaderSection = () => {
   return (
     <section>
